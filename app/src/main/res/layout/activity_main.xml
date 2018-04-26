@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.paulosalvatore.codelab_android_a10_push_imagens_25_04_18.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pushNotification"
+        android:text="Push Notification" />
+
+    <Button
+        android:id="@+id/btCarregarImagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carregar Imagem" />
+
+    <ImageView
+        android:id="@+id/ivImagem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
